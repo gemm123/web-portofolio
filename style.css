@@ -3,22 +3,29 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 li {
     list-style: none;
     font-size: 20px;
+    opacity: 0.9;
+    padding: 15px 20px;
+    float: right;
+}
+
+li:hover {
+    opacity: 1;
+    display: inline;
 }
 
 ul {
     margin: 0;
 }
 
-.header {
+header {
     height: 50px;
-}
-
-.header-list li {
-    float: right;
-    padding: 15px 22px;
 }
 
 .main {
@@ -26,8 +33,35 @@ ul {
     padding-bottom: 60px;
 }
 
+.github {
+    background-color: black;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 4px;
+    color: white;
+    opacity: 0.8;
+}
+
+.linkedin {
+    background-color: #0077b5;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 4px;
+    color: white;
+    opacity: 0.8;
+}
+
+.github, .linkedin{
+    margin-top: 20px;
+}
+
+.github:hover, .linkedin:hover {
+    opacity: 1;
+}
+
 .atas {
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .atas h1 {
@@ -58,13 +92,13 @@ span {
     margin-bottom: 50px;
 }
 
-.footer {
+footer {
     background-color: #2f5167;
     color: #fff;
     height: 90px;
 }
 
-.footer h4 {
+footer h4 {
     text-align: center;
     padding: 40px;
     padding-bottom: 30px;
