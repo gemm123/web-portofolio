@@ -105,6 +105,14 @@ span {
     border-bottom: 2px solid #dee7ec;
 }
 
+.gambar {
+    text-align: center;
+}
+
+.satu {
+    margin-right: 50px;
+}
+
 .tengah, .bawah {
     padding-left: 25px;
     padding-right: 25px;
