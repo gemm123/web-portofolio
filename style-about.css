@@ -41,8 +41,16 @@ a {
     display: flex;
 }
 
-.foto, p {
+.foto {
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+.caption {
     width: 50%;
+    text-align: justify;
+    margin: 0 auto;
+    margin-left: 0;
 }
 
 footer {
