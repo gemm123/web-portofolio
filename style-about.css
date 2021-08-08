@@ -20,9 +20,17 @@ a {
 .header-list a {
     color: black;
     font-size: 20px;
-    padding: 15px 20px;
+    padding: 0px;
     font-weight: bold;
     opacity: 0.6;
+}
+
+.list-satu {
+    margin-right: 30px;
+}
+
+.list-dua {
+    margin-right: 10px;
 }
 
 .header-list a:hover {
@@ -39,6 +47,7 @@ a {
 
 .container1 {
     display: flex;
+    margin: 50px 0;
 }
 
 .foto {
@@ -46,17 +55,23 @@ a {
     margin-right: 0;
 }
 
+.foto img {
+    border-radius: 100%;
+}
+
 .caption {
     width: 50%;
     text-align: justify;
     margin: 0 auto;
-    margin-left: 0;
+    margin-left: 20px;
+    padding-top: 50px;
 }
 
 footer {
     background-color: #2f5167;
     color: #fff;
     height: 90px;
+    margin-top: 130px;
 }
 
 footer h4 {

@@ -80,6 +80,7 @@ header {
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .atas {
@@ -114,6 +115,11 @@ span {
 
 .satu {
     margin-right: 50px;
+}
+
+.tiga {
+    border: 2px solid #dee7ec;
+    margin-top: 20px;
 }
 
 .tengah, .bawah {
